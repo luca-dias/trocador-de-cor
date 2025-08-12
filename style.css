@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans|Roboto:400,700&display=swap");
+
+:root {
+    --main-bg-color: white;
+    --font-family: "Roboto", sans-serif;
+    --font-family2: "Open Sans", sans-serif;
+}
+
+
+body {
+    background-color: var(--main-bg-color);
+    padding-top: 200px;
+    transition: all, 0.3s ease-out;
+}
+
+div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.card {
+    display: flex;
+    flex-direction: row;
+    background-color: #303038;
+    padding: 0.5rem;
+    width: auto;
+    height: 1rem;
+    border-radius: 4px;
+}
+
+h4 {
+    width: auto;
+    font-family: var(--font-family);
+}
+
+#p-attribute-name {
+    color: #fdffff;
+}
+
+#p-color-name {
+    color: #6b68ff;
+    padding-left: 0.5rem;
+    /* transition: all, 0.3s, ease; */
+}
+
+button {
+    display: block;
+    width: 8rem;
+    height: 3rem;
+    background-color: var(--main-bg-color);
+    border: 0px;
+    box-shadow: 5px 5px 10px rgba(100, 100, 100, 0.5);
+    font-family: var(--font-family2);
+    font-size: 0.9rem;
+    font-weight: bold;
+    border-radius: 10px;
+    margin-top: 1.5rem;
+    transition: all 0.3s ease;
+}
+
+button:hover {
+    width: 8.5rem;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
